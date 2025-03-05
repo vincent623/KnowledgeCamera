@@ -82,20 +82,6 @@ renderer.loadSchema('https://example.com/kg/schema.json');
 - **可视化层**：遵循SPACE设计原则（Semantic-Preserving Adaptive Coordinate Encoding）
 - **算法层**：提供WASM和纯JS双版本
 
-### 分支管理
-
-```mermaid
-gitGraph
-    commit
-    branch feature/新布局算法
-    checkout main
-    branch fix/手势交互优化
-    checkout feature/新布局算法
-    commit
-    checkout main
-    merge feature/新布局算法
-```
-
 ### 贡献流程
 1. 在[Discussion](https://github.com/your-repo/discussions)发起提案
 2. 签署CLA贡献者协议
